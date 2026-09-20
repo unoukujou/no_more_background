@@ -258,8 +258,8 @@ class Translations$apps$permissions$en {
 	/// en: 'Run in bg'
 	String get runInBackground => 'Run in bg';
 
-	/// en: 'Bg data'
-	String get backgroundData => 'Bg data';
+	/// en: 'Network'
+	String get backgroundData => Network';
 
 	/// en: 'More'
 	String get more => 'More';
@@ -365,16 +365,16 @@ class Translations$apps$menu$backgroundData$en {
 	// Translations
 
 	/// en: 'Background data controls'
-	String get title => 'Background data controls';
+	String get title => 'Network access';
 
 	/// en: 'This only affects mobile data usage in the background. Wi-Fi and foreground usage is unaffected.'
-	String get explanation => 'This only affects mobile data usage in the background.\nWi-Fi and foreground usage is unaffected.';
+	String get explanation => 'Allow or deny app from accessing the network.';
 
 	/// en: 'Disable background usage of mobile data'
-	String get restricted => 'Disable background usage of mobile data';
+	String get restricted => 'Deny network access';
 
 	/// en: 'Enable background usage of mobile data'
-	String get unrestricted => 'Enable background usage of mobile data';
+	String get unrestricted => 'Allow network access';
 }
 
 // Path: apps.menu.archive
