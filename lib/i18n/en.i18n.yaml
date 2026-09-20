@@ -78,12 +78,11 @@ apps:
       title: Android's standard battery controls
       explanation: These are a good start but aren't completely effective.
     backgroundData:
-      title: Background data controls
+      title: Network access
       explanation: |-
-        This only affects mobile data usage in the background.
-        Wi-Fi and foreground usage is unaffected.
-      restricted: Disable background usage of mobile data
-      unrestricted: Enable background usage of mobile data
+        Allow or deny app from accessing the network.
+      restricted: Deny network access
+      unrestricted: Allow network access
     archive:
       title: Archive
       explanation: |-
@@ -100,7 +99,7 @@ apps:
         button: Force stop
   permissions:
     runInBackground: Run in bg
-    backgroundData: Bg data
+    backgroundData: Network
     more: More
   review:
     reviewed: Reviewed
