@@ -491,11 +491,14 @@ class AdbImpl {
       '-s',
       deviceSerial.value,
       'shell',
-      'cmd',
+      'service',
+      'call',
       'netpolicy',
-      restrict ? 'add' : 'remove',
-      'restrict-background-blacklist',
+      restrict ? '1' : '1',
+      'i32',
       app.uid,
+      'i32',
+      restrict ? '262145' : '0',
     ]);
   }
 
